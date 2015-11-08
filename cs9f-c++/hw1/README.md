@@ -27,11 +27,9 @@ You may but need not use functions. However, if your main function is more than 
 * Correctly working code.
 * Test cases as specified.
 * Adherence to CS 9F style standards:
-
 * appropriate use of indenting and white space;
 * avoidance of "forbidden C++";
 * variable names that reflect their use;
 * informative comments;
 * no function more than 24 lines long.
-
 * Clean case analysis and simple loop structuring.
