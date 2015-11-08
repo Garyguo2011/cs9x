@@ -1,0 +1,9 @@
+update apple 30
+update orange 19
+update orange -11
+update banana 5
+update apple -9
+list names
+list quantities
+quit
+list names

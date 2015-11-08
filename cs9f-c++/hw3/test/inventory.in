@@ -1,0 +1,8 @@
+list names
+update apple 2
+update orange 4
+list files
+update apple -4
+list quantities
+update apple orange
+list names
