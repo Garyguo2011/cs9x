@@ -44,6 +44,7 @@ public:
 private:
 	float myRadius;
 	float myAngleInRadians;
+	void Standardize();
 };
 
 #endif
