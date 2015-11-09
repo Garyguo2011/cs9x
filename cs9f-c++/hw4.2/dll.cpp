@@ -34,6 +34,11 @@ DLLnode *DLLnode::Previous () {
 // and return a pointer to new element.
 DLLnode *DLLnode::Insert (DLLnode *ptr) {
     // you fill this in
+    myPrevious->myNext = ptr;
+    ptr->myPrevious = myPrevious;
+    ptr->myNext = this;
+    myPrevious = ptr;
+    return ptr;
 }
 
 // Delete the first node from the list and return pointer to its
@@ -41,6 +46,12 @@ DLLnode *DLLnode::Insert (DLLnode *ptr) {
 // start with. Precondition: this != 0.
 DLLnode *DLLnode::Delete () {
     // you fill this in
+    if (myNext == this){
+        return NULL;
+    }
+    myPrevious->myNext = myNext;
+    myNext->myPrevious = myPrevious;
+    return myNext;
 }
 
 // Print the list.
