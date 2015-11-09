@@ -1,7 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>404 Not Found</title>
-</head><body>
-<h1>Not Found</h1>
-<p>The requested URL /~cs9f/lib/amoebas.h was not found on this server.</p>
-</body></html>
+#ifndef AMOEBA_H
+#define AMOEBA_H
+
+#include <string>
+
+class Amoeba {
+public:
+	Amoeba (string);		// birth of an amoeba
+	string Name ();			// returns your name
+	Amoeba* Parent ();		// returns your parent
+	void AddChild (Amoeba*);	// add a baby amoeba to the family
+private:
+	string myName;			// this amoeba's name
+	Amoeba* myParent;		// good old mom (or is it dad?)
+	Amoeba* myOlderSibling;		// the next older brother/sister
+	Amoeba* myYoungestChild;	// the youngest kid
+	Amoeba* myOldestChild;		// the oldest kid
+};
+
+#endif
