@@ -19,15 +19,16 @@ ListNode::ListNode (int k, ListNode* ptr) {
 ListNode::~ListNode () {
     // this version is buggy
     cout << "Deleting node with value " << myValue << endl;
-    for (ListNode* p=this; p!=0; p=p->myNext) {
-	delete p;
-    }
+    delete myNext;
+    // for (ListNode* p=this; p!=0; p=p->myNext) {
+    // delete p;
+    // }
 }
 // Print the list.
 void ListNode::Print () {
     ListNode* list = this;
     for (; list; list = list->Rest()) {
-	cout << list->First() << " ";
+       cout << list->First() << " ";
     }
     cout << endl;
 }
