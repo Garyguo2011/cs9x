@@ -40,6 +40,8 @@ int main () {
 	parent->AddChild (brother);
 	parent->AddChild (sister);
 
+	grandparent->AddChild(parent);
+
 	// We won't need these any more now, will we?
 	parent = 0;
 	grandparent = 0;
@@ -56,4 +58,11 @@ int main () {
 	// Print my name and my parent's name.
 	cout << "Hi, my name is " << me->Name () << endl;
 	cout << "Meet my parent " << me->Parent ()->Name () << endl;
+	cout << "Meet my grandparent " << me->Parent ()->Parent ()->Name () << endl;
+	cout << "Meet my children " << endl;
+	me->PrintChildren();
+	cout << "Meet my grandchildren" << endl;
+	me->PrintGrandchildren();
+	cout << "Meet all my family descendants" << endl;
+	me->Parent()->Parent()->PrintDescendants();
 }

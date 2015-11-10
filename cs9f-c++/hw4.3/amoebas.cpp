@@ -1,3 +1,5 @@
+#include <string>
+#include <iostream>
 #include "amoebas.h"
 
 using namespace std;
@@ -33,4 +35,32 @@ void Amoeba::AddChild (Amoeba* newChild) {
 		myYoungestChild = newChild;	// no younger siblings,
 		newChild->myOlderSibling = otherSibling;	// but new kid now
 	}					// has older siblings.
+}
+
+void Amoeba::PrintChildren() {
+	Amoeba *ptr = myYoungestChild;
+	while(ptr != NULL){
+		cout << ptr->Name() << endl;
+		ptr = ptr->myOlderSibling;
+	}
+}
+
+void Amoeba::PrintGrandchildren() {
+    Amoeba *ptr = myYoungestChild;
+    while (ptr != NULL) {
+        ptr->PrintChildren();
+        ptr = ptr->myOlderSibling;
+    }
+}
+
+void Amoeba::PrintDescendants(int level){
+	Amoeba *ptr = myYoungestChild;
+	while(ptr != NULL){
+		for (int i = 0; i < level; ++i) {
+			cout << "	";
+		}
+		cout << ptr->Name() << endl;
+		ptr->PrintDescendants(level + 1);
+		ptr = ptr->myOlderSibling;
+	}
 }
