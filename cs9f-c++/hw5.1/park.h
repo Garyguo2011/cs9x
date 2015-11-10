@@ -3,10 +3,15 @@
 #include <vector>
 #include <string>
 #include "positions.h"
+#include <stdlib.h>
+
+using namespace std;
+
+
 class Animal {
 friend class Scene;
 public:
-	Animal (string s, Position p);
+	Animal (string, Position);
 	string Name () const;
 	Position Pos () const;
 	// Move the animal, and return true if it catches 

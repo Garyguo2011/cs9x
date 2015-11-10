@@ -1,5 +1,7 @@
 #ifndef POSITIONS_H
 #define POSITIONS_H
+#include <math.h>
+#include <iostream>
 
 class Position {
 public:
@@ -25,7 +27,7 @@ public:
 
 	// Print this position.
 	void Print ();
-	friend ostream& operator<< (ostream &out, Position &pos);
+	//friend ostream& operator<< (ostream &out, Position &pos);
 
 	// Return true if someone at this position can see someone 
 	// or something at the argument position (i.e. the statue 
@@ -43,6 +45,10 @@ public:
 	// than pi radians, and the radii of all the positions 
 	// are the same.
 	bool IsBetween (Position old, Position current);
+	
+	float getRadius();
+	float getAngleInRadians();
+	void moveDistance(float dist);
 
 private:
 	float myRadius;
