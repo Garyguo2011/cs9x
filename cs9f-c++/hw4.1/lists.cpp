@@ -20,6 +20,7 @@ ListNode::~ListNode () {
     // this version is buggy
     cout << "Deleting node with value " << myValue << endl;
     delete myNext;
+    myNext = NULL;
     // for (ListNode* p=this; p!=0; p=p->myNext) {
     // delete p;
     // }

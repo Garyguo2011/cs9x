@@ -5,5 +5,4 @@ update banana 5
 update apple -9
 list names
 list quantities
-quit
 list names
