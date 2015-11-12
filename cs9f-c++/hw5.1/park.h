@@ -3,6 +3,9 @@
 #include <vector>
 #include <string>
 #include "positions.h"
+#include <stdlib.h>
+using namespace std;
+
 class Animal {
 friend class Scene;
 public:

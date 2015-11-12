@@ -25,7 +25,7 @@ public:
 
 	// Print this position.
 	void Print ();
-	friend ostream& operator<< (ostream &out, Position &pos);
+	// friend ostream& operator<< (ostream &out, Position &pos);
 
 	// Return true if someone at this position can see someone 
 	// or something at the argument position (i.e. the statue 
@@ -44,10 +44,13 @@ public:
 	// are the same.
 	bool IsBetween (Position old, Position current);
 
+	float GetMyRadius();
+	float GetMyAngleInRadians();
+
 private:
 	float myRadius;
 	float myAngleInRadians;
-	float Normalize (float radians);
+	void Normalize ();
 };
 
 #endif
