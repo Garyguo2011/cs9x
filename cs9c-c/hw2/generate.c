@@ -50,7 +50,7 @@ int main() {
 	*/
       
       puts ("This program finds words that can be associated with");
-      puts ("phone numbers\n\n")
+      puts ("phone numbers\n\n");
       puts("What is the maximum number of consonants you would like"); 
       puts("the generated word to possess?");
       puts ("(note: 0's and 1's are considered consonants)");
@@ -228,7 +228,7 @@ int isvowel (char x) {
 /*This function converts the character array into numbers and places
   its contents into the array phone_int*/
 
-convert (char phone[], int phone_int[]) {
+void convert (char phone[], int phone_int[]) {
   int i;
   for (i = 0; i < 7; i++) {
       phone_int[i] = phone[i] - '0';
