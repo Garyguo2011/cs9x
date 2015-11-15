@@ -207,7 +207,7 @@ void print_if_good (int maxNumConsonant, char word[], int *level) {
       printf ("%s  ",word);
       /*Every time we print a word out, we add 1 to the value of level.*/
       
-      *level++;
+      *level = *level + 1;
       
       /*Every seventh word we print out, we add a carriage return to make
 	the format nice*/

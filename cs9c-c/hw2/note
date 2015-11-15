@@ -1,0 +1,190 @@
+1. Using the techniques you have learned so far, explain what gets copied into maxNumConsonant after the line above is executed. What gdb commands did you use to find out what was copied into maxNumConsonant? Explain what input[0] - '0' does.
+
+ * print maxNumConsonant
+ * ASCII number
+
+
+ 2. What is the value stored in phone? (Hint: Everyone's answer will be different.) Why is phone represented by an address
+
+(gdb) print phone
+$5 = 0x7fffffffe700 "4460175"
+
+because phone is char array. phone is a pointer point to the head of array
+
+ 3. Use the techniques that you've learned thus far and determine whether or not the for loop in this function works. What evidence suggests so?
+
+ yes. it works properly.
+
+ (gdb) step
+convert (phone=0x7fffffffe700 "4460175", phone_int=0x7fffffffe670) at generate.c:233
+233	  for (i = 0; i < 7; i++) {
+(gdb) display i
+3: i = 0
+(gdb) display phone_int[0]
+4: phone_int[0] = -136494080
+(gdb) display phone_int[1]
+5: phone_int[1] = 0
+(gdb) display phone_int[2]
+6: phone_int[2] = 0
+(gdb) display phone_int[3]
+7: phone_int[3] = 0
+(gdb) display phone_int[4]
+8: phone_int[4] = -136493504
+(gdb) display phone_int[5]
+9: phone_int[5] = 32767
+(gdb) display phone_int[6]
+10: phone_int[6] = -136493504
+(gdb) n
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 0
+5: phone_int[1] = 0
+4: phone_int[0] = -136494080
+3: i = 0
+(gdb) n
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 0
+5: phone_int[1] = 0
+4: phone_int[0] = 4
+3: i = 0
+(gdb) n
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 0
+5: phone_int[1] = 0
+4: phone_int[0] = 4
+3: i = 1
+(gdb) n
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 0
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 1
+(gdb) n
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 0
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 2
+(gdb) n
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 2
+(gdb)
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 3
+(gdb)
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 3
+(gdb)
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 4
+(gdb)
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 4
+(gdb)
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 5
+(gdb)
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 7
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 5
+(gdb)
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 7
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 6
+(gdb)
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = 5
+9: phone_int[5] = 7
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 6
+(gdb) n
+236	}
+10: phone_int[6] = 5
+9: phone_int[5] = 7
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 7
+(gdb) n
+
+
+7. What is the current value of word? Which gdb command did you use to find its value? Is its value correct?
