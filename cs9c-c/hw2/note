@@ -1,3 +1,6 @@
+1. fix ";" and function declaration
+
+
 1. Using the techniques you have learned so far, explain what gets copied into maxNumConsonant after the line above is executed. What gdb commands did you use to find out what was copied into maxNumConsonant? Explain what input[0] - '0' does.
 
  * print maxNumConsonant
@@ -188,3 +191,5 @@ convert (phone=0x7fffffffe700 "4460175", phone_int=0x7fffffffe670) at generate.c
 
 
 7. What is the current value of word? Which gdb command did you use to find its value? Is its value correct?
+print word
+ggm01rl

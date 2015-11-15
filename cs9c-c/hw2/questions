@@ -1,0 +1,21 @@
+1. fix ";" and function declaration by adding "void".
+2. Try different maxNumConsonant the output will malformat
+3. print maxNumConsonant, display maxNumConsonant. Use ASCII to calculate input[0] - '0'
+4. "4460175", it is char array, phone is char* point to head of char array.
+5. Works properly. the output array looks properly.
+	
+	236	}
+	10: phone_int[6] = 5
+	9: phone_int[5] = 7
+	8: phone_int[4] = 1
+	7: phone_int[3] = 0
+	6: phone_int[2] = 6
+	5: phone_int[1] = 4
+	4: phone_int[0] = 4
+	3: i = 7
+ 
+6. treaking variable abcdefg and print word
+7. print word => ggm01rl, value is correct
+8. &level
+9. fix with "*level = *level + 1;" and warning disappear.
+ 
