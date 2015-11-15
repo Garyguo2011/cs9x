@@ -1,0 +1,10127 @@
+Script started on Sun 15 Nov 2015 11:34:38 AM PST
+
+'cs9c-ap' is using 29/3145 MB (0%) of its disk quota on /home/cc.
+
+'cs9c-ap' is using 0/20971 MB (0%) of its disk quota on /home/tmp.
+
+(Type 'more /share/b/pub/disk.quotas' for more information.)
+
+cs9c-ap@hive2 [68] [1m~/cs9x/cs9c-c/hw2[0m # gcc generate.c 
+generate.c: In function ‘main’:
+generate.c:57:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (input);
+       ^
+generate.c:67:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (phone);
+       ^
+generate.c:76:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (input);
+       ^
+generate.c: In function ‘print_if_good’:
+generate.c:210:7: warning: value computed is not used [-Wunused-value]
+       *level++;
+       ^
+/tmp/cci2FXGK.o: In function `main':
+/home/cc/cs9c/fa15/class/cs9c-ap/cs9x/cs9c-c/hw2/generate.c:57: warning: the `gets' function is dangerous and should not be used.
+cs9c-ap@hive2 [69] [1m~/cs9x/cs9c-c/hw2[0m # gd[K[K./a.out 
+This program finds words that can be associated with
+phone numbers
+
+
+What is the maximum number of consonants you would like
+the generated word to possess?
+(note: 0's and 1's are considered consonants)
+3 4
+Please enter a 7 digit phone number with dashes removed
+4460175
+iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  
+
+Would you like to try another number? (Y/N)
+Y
+This program finds words that can be associated with
+phone numbers
+
+
+What is the maximum number of consonants you would like
+the generated word to possess?
+(note: 0's and 1's are considered consonants)
+2258032
+Please enter a 7 digit phone number with dashes removed
+^C
+cs9c-ap@hive2 [70] [1m~/cs9x/cs9c-c/hw2[0m # ./a.out 
+This program finds words that can be associated with
+phone numbers
+
+
+What is the maximum number of consonants you would like
+the generated word to possess?
+(note: 0's and 1's are considered consonants)
+3
+Please enter a 7 digit phone number with dashes removed
+2250 8032
+aajt0ea  
+aajt0ea  
+aajt0ea  
+aaju0da  
+aaju0ea  
+aaju0eb  
+aaju0ec  
+aaju0fa  
+aaju0da  
+aaju0ea  
+aaju0eb  
+aaju0ec  
+aaju0fa  
+aaju0da  
+aaju0ea  
+aaju0eb  
+aaju0ec  
+aaju0fa  
+aajv0ea  
+aajv0ea  
+aajv0ea  
+aakt0ea  
+aakt0ea  
+aakt0ea  
+aaku0da  
+aaku0ea  
+aaku0eb  
+aaku0ec  
+aaku0fa  
+aaku0da  
+aaku0ea  
+aaku0eb  
+aaku0ec  
+aaku0fa  
+aaku0da  
+aaku0ea  
+aaku0eb  
+aaku0ec  
+aaku0fa  
+aakv0ea  
+aakv0ea  
+aakv0ea  
+aalt0ea  
+aalt0ea  
+aalt0ea  
+aalu0da  
+aalu0ea  
+aalu0eb  
+aalu0ec  
+aalu0fa  
+aalu0da  
+aalu0ea  
+aalu0eb  
+aalu0ec  
+aalu0fa  
+aalu0da  
+aalu0ea  
+aalu0eb  
+aalu0ec  
+aalu0fa  
+aalv0ea  
+aalv0ea  
+aalv0ea  
+abju0ea  
+abju0ea  
+abju0ea  
+abku0ea  
+abku0ea  
+abku0ea  
+ablu0ea  
+ablu0ea  
+ablu0ea  
+acju0ea  
+acju0ea  
+acju0ea  
+acku0ea  
+acku0ea  
+acku0ea  
+aclu0ea  
+aclu0ea  
+aclu0ea  
+baju0ea  baju0ea  baju0ea  baku0ea  baku0ea  baku0ea  balu0ea  balu0ea  balu0ea  caju0ea  caju0ea  caju0ea  caku0ea  caku0ea  caku0ea  calu0ea  calu0ea  calu0ea  
+
+Would you like to try another number? (Y/N)
+N
+cs9c-ap@hive2 [71] [1m~/cs9x/cs9c-c/hw2[0m # gcc generate.c [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgdb a.out 
+GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a.out...done.
+(gdb) break main
+Breakpoint 1 at 0x400685: file generate.c, line 35.
+(gdb) run
+Starting program: /home/cc/cs9c/fa15/class/cs9c-ap/cs9x/cs9c-c/hw2/a.out 
+
+Breakpoint 1, main () at generate.c:35
+35	int main() {
+(gdb) print a[Kgoahead
+$1 = 0
+(gdb) n
+42	  goahead = 1;
+(gdb) nprint goahead
+$2 = 0
+(gdb) n
+43	  while (goahead) {
+(gdb) print goahead
+$3 = 1
+(gdb) display goahead
+1: goahead = 1
+(gdb) next
+52	      puts ("This program finds words that can be associated with");
+1: goahead = 1
+(gdb) n
+This program finds words that can be associated with
+53	      puts ("phone numbers\n\n");
+1: goahead = 1
+(gdb) n
+phone numbers
+
+
+54	      puts("What is the maximum number of consonants you would like"); 
+1: goahead = 1
+(gdb) n
+What is the maximum number of consonants you would like
+55	      puts("the generated word to possess?");
+1: goahead = 1
+(gdb) n
+the generated word to possess?
+56	      puts ("(note: 0's and 1's are considered consonants)");
+1: goahead = 1
+(gdb) n
+(note: 0's and 1's are considered consonants)
+57	      gets (input);
+1: goahead = 1
+(gdb) 
+4
+64	      maxNumConsonant = input[0] - '0';
+1: goahead = 1
+(gdb) print inpu[K[K[K[K[K[K[K[K[K[Kdisplay input
+2: input = "4\000@\000\000\000\000"
+(gdb) print maxnu[K[KNumConsonant
+$4 = 0
+(gdb) n
+66	      puts ("Please enter a 7 digit phone number with dashes removed");
+2: input = "4\000@\000\000\000\000"
+1: goahead = 1
+(gdb) nprint maxNumConsonant
+$5 = 4
+(gdb) n
+Please enter a 7 digit phone number with dashes removed
+67	      gets (phone);
+2: input = "4\000@\000\000\000\000"
+1: goahead = 1
+(gdb) 
+4460175
+71	      generateSpellings (phone, maxNumConsonant);
+2: input = "4\000@\000\000\000\000"
+1: goahead = 1
+(gdb) step
+generateSpellings (phone=0x7fffffffe700 "4460175", maxNumConsonant=4) at generate.c:123
+123	{
+(gdb) print phone
+$6 = 0x7fffffffe700 "4460175"
+(gdb) n
+128	  char dial[10][4]={
+(gdb) 
+143	  level = 0;
+(gdb) 
+144	  convert (phone, phone_int);
+(gdb) step
+convert (phone=0x7fffffffe700 "4460175", phone_int=0x7fffffffe670) at generate.c:233
+233	  for (i = 0; i < 7; i++) {
+(gdb) display i
+3: i = 0
+(gdb) display phone_int[]0][C
+4: phone_int[0] = -136494080
+(gdb) display phone_int[0][1P]1]
+5: phone_int[1] = 0
+(gdb) display phone_int[1][K[K2]
+6: phone_int[2] = 0
+(gdb) display phone_int[2][1P]3]
+7: phone_int[3] = 0
+(gdb) display phone_int[3][K[K4]
+8: phone_int[4] = -136493504
+(gdb) display phone_int[4][1P]5]
+9: phone_int[5] = 32767
+(gdb) display phone_int[5][1P]6]
+10: phone_int[6] = -136493504
+(gdb) n
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 0
+5: phone_int[1] = 0
+4: phone_int[0] = -136494080
+3: i = 0
+(gdb) n
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 0
+5: phone_int[1] = 0
+4: phone_int[0] = 4
+3: i = 0
+(gdb) n
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 0
+5: phone_int[1] = 0
+4: phone_int[0] = 4
+3: i = 1
+(gdb) n
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 0
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 1
+(gdb) n
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 0
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 2
+(gdb) n
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 2
+(gdb) 
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 3
+(gdb) 
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 3
+(gdb) 
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = -136493504
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 4
+(gdb) 
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 4
+(gdb) 
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 32767
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 5
+(gdb) 
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = -136493504
+9: phone_int[5] = 7
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 5
+(gdb) 
+234	      phone_int[i] = phone[i] - '0';
+10: phone_int[6] = -136493504
+9: phone_int[5] = 7
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 6
+(gdb) 
+233	  for (i = 0; i < 7; i++) {
+10: phone_int[6] = 5
+9: phone_int[5] = 7
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 6
+(gdb) n
+236	}
+10: phone_int[6] = 5
+9: phone_int[5] = 7
+8: phone_int[4] = 1
+7: phone_int[3] = 0
+6: phone_int[2] = 6
+5: phone_int[1] = 4
+4: phone_int[0] = 4
+3: i = 7
+(gdb) n
+generateSpellings (phone=0x7fffffffe700 "4460175", maxNumConsonant=4) at generate.c:152
+152	  for (a = 0; a < 3; a++) {
+(gdb) n
+153	      for (b = 0; b < 3; b++) {
+(gdb) die[Ksplay a
+11: a = 0
+(gdb) display b
+12: b = -139967564
+(gdb) display b[Kc
+13: c = 32767
+(gdb) display c[Kd
+14: d = -6160
+(gdb) display d[Ke
+15: e = 32767
+(gdb) display ed[Kf
+16: f = -134258680
+(gdb) display f[Kg
+17: g = 32767
+(gdb) display workd[K[Kd
+18: word = "\000\000\000\000\000\000\000"
+(gdb) display word[]0]
+19: word[0] = 0 '\000'
+(gdb) display word[0][K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kn
+154		  for (c = 0; c < 3; c++) {
+19: word[0] = 0 '\000'
+18: word = "\000\000\000\000\000\000\000"
+17: g = 32767
+16: f = -134258680
+15: e = 32767
+14: d = -6160
+13: c = 32767
+12: b = 0
+11: a = 0
+(gdb) n
+155		      for (d = 0; d < 3; d++) {	  
+19: word[0] = 0 '\000'
+18: word = "\000\000\000\000\000\000\000"
+17: g = 32767
+16: f = -134258680
+15: e = 32767
+14: d = -6160
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) n
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 0 '\000'
+18: word = "\000\000\000\000\000\000\000"
+17: g = 32767
+16: f = -134258680
+15: e = 32767
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 0 '\000'
+18: word = "\000\000\000\000\000\000\000"
+17: g = 32767
+16: f = -134258680
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 0 '\000'
+18: word = "\000\000\000\000\000\000\000"
+17: g = 32767
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 0 '\000'
+18: word = "\000\000\000\000\000\000\000"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "g\000\000\000\000\000\000"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "gg\000\000\000\000\000"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm\000\000\000\000"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm0\000\000\000"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01\000\000"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01p\000"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 0
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 1
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 2
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 0
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 0
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 1
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 2
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 1
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 0
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) print phone
+$7 = 0x7fffffffe700 "4460175"
+(gdb) 
+$8 = 0x7fffffffe700 "4460175"
+(gdb) 
+$9 = 0x7fffffffe700 "4460175"
+(gdb) n
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 1
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 2
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 2
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+155		      for (d = 0; d < 3; d++) {	  
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 3
+14: d = 0
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 3
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 0
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 1
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 2
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 0
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 0
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 1
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 2
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 1
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 0
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 1
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 2
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 2
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+155		      for (d = 0; d < 3; d++) {	  
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 3
+14: d = 1
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 3
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 0
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 1
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 2
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 0
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 0
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 1
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 1
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sk"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 2
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 2
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+156			  for (e = 0; e < 3; e++) {	    
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 1
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 3
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 3
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 0
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pj"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 1
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01pk"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 2
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 0
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 3
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01pl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 0
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rj"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 1
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01rk"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 2
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+157			      for (f = 0; f < 3; f++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 1
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+158				  for (g = 0; g < 3; g++) {
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 3
+16: f = 2
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+165				      word[0] = dial[phone_int[0]][a];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+166				      word[1] = dial[phone_int[1]][b];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+167				      word[2] = dial[phone_int[2]][c];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+168				      word[3] = dial[phone_int[3]][d];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+169				      word[4] = dial[phone_int[4]][e];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+170				      word[5] = dial[phone_int[5]][f];
+19: word[0] = 103 'g'
+18: word = "ggm01rl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+171				      word[6] = dial[phone_int[6]][g];
+19: word[0] = 103 'g'
+18: word = "ggm01sl"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+172				      word[7] = '\0';
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) 
+176				      print_if_good(maxNumConsonant, word, &level);
+19: word[0] = 103 'g'
+18: word = "ggm01sj"
+17: g = 0
+16: f = 2
+15: e = 2
+14: d = 2
+13: c = 0
+12: b = 0
+11: a = 0
+(gdb) step
+print_if_good (maxNumConsonant=4, word=0x7fffffffe6c0 "ggm01sj", level=0x7fffffffe650) at generate.c:193
+193	  int numVowel = 0;
+(gdb) n
+197	  for (i = 0; i < 7;i++) {
+(gdb) n
+198	      if (isvowel(word[i])) {
+(gdb) break 207
+Breakpoint 2 at 0x400a28: file generate.c, line 207.
+(gdb) continue
+Continuing.
+
+Breakpoint 2, print_if_good (maxNumConsonant=4, word=0x7fffffffe6c0 "iio01pj", level=0x7fffffffe650) at generate.c:207
+207	      printf ("%s  ",word);
+(gdb) n
+210	      *level++;
+(gdb) display level
+20: level = (int *) 0x7fffffffe650
+(gdb) display *level
+21: *level = 0
+(gdb) n
+215	      if ((*level)%7 == 0) {
+21: *level = 2
+20: level = (int *) 0x7fffffffe654
+(gdb) exit
+Undefined command: "exit".  Try "help".
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 32677] will be killed.
+
+Quit anyway? (y or n) y
+cs9c-ap@hive2 [72] [1m~/cs9x/cs9c-c/hw2[0m # ll
+bash: ll: command not found
+cs9c-ap@hive2 [73] [1m~/cs9x/cs9c-c/hw2[0m # ls
+a.out  assignment2  generate.c
+cs9c-ap@hive2 [74] [1m~/cs9x/cs9c-c/hw2[0m # gcd g[K[K[Kc generate.c 
+generate.c: In function ‘main’:
+generate.c:57:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (input);
+       ^
+generate.c:67:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (phone);
+       ^
+generate.c:76:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (input);
+       ^
+generate.c: In function ‘print_if_good’:
+generate.c:210:7: warning: value computed is not used [-Wunused-value]
+       *level++;
+       ^
+/tmp/ccqLVxf1.o: In function `main':
+/home/cc/cs9c/fa15/class/cs9c-ap/cs9x/cs9c-c/hw2/generate.c:57: warning: the `gets' function is dangerous and should not be used.
+cs9c-ap@hive2 [75] [1m~/cs9x/cs9c-c/hw2[0m # git pull
+remote: Counting objects: 6, done.[K
+remote: Compressing objects:  16% (1/6)   [Kremote: Compressing objects:  33% (2/6)   [Kremote: Compressing objects:  50% (3/6)   [Kremote: Compressing objects:  66% (4/6)   [Kremote: Compressing objects:  83% (5/6)   [Kremote: Compressing objects: 100% (6/6)   [Kremote: Compressing objects: 100% (6/6), done.[K
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  16% (1/6)   Unpacking objects:  33% (2/6)   Unpacking objects:  50% (3/6)   Unpacking objects:  66% (4/6)   Unpacking objects:  83% (5/6)   Unpacking objects: 100% (6/6)   Unpacking objects: 100% (6/6), done.
+warning: cannot open /etc/mailname: Permission denied
+From https://github.com/Garyguo2011/cs9x
+   aecb71f..50050a5  master     -> origin/master
+Updating aecb71f..50050a5
+error: Your local changes to the following files would be overwritten by merge:
+	cs9c-c/hw2/a.out
+Please, commit your changes or stash them before you can merge.
+Aborting
+cs9c-ap@hive2 [76] [1m~/cs9x/cs9c-c/hw2[0m # git add .
+cs9c-ap@hive2 [77] [1m~/cs9x/cs9c-c/hw2[0m # git commit -m ""d"e"b"u"g" "l"o"g"
+warning: cannot open /etc/mailname: Permission denied
+[master 68d644d] debug log
+ Committer: Xinran_Guo <cs9c-ap@hive2.CS.Berkeley.EDU>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 7938 insertions(+)
+ create mode 100644 cs9c-c/hw2/assignment2
+cs9c-ap@hive2 [78] [1m~/cs9x/cs9c-c/hw2[0m # git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working directory clean
+cs9c-ap@hive2 [79] [1m~/cs9x/cs9c-c/hw2[0m # git pull
+warning: cannot open /etc/mailname: Permission denied
+CONFLICT (modify/delete): cs9c-c/hw2/a.out deleted in 50050a5f5daa385efc37efe1b18c6fda3a1671ed and modified in HEAD. Version HEAD of cs9c-c/hw2/a.out left in tree.
+Automatic merge failed; fix conflicts and then commit the result.
+cs9c-ap@hive2 [80] [1m~/cs9x/cs9c-c/hw2[0m # ll
+bash: ll: command not found
+cs9c-ap@hive2 [81] [1m~/cs9x/cs9c-c/hw2[0m # ls
+a.out  assignment2  generate.c	note
+cs9c-ap@hive2 [82] [1m~/cs9x/cs9c-c/hw2[0m # ls
+a.out  assignment2  generate.c	note
+cs9c-ap@hive2 [83] [1m~/cs9x/cs9c-c/hw2[0m # rm a.out 
+cs9c-ap@hive2 [84] [1m~/cs9x/cs9c-c/hw2[0m # gcc generate.c 
+generate.c: In function ‘main’:
+generate.c:57:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (input);
+       ^
+generate.c:67:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (phone);
+       ^
+generate.c:76:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (input);
+       ^
+/tmp/cc68R4rf.o: In function `main':
+/home/cc/cs9c/fa15/class/cs9c-ap/cs9x/cs9c-c/hw2/generate.c:57: warning: the `gets' function is dangerous and should not be used.
+cs9c-ap@hive2 [85] [1m~/cs9x/cs9c-c/hw2[0m # gcc generate.c 
+generate.c: In function ‘main’:
+generate.c:57:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (input);
+       ^
+generate.c:67:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (phone);
+       ^
+generate.c:76:7: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+       gets (input);
+       ^
+/tmp/ccvfxvzU.o: In function `main':
+/home/cc/cs9c/fa15/class/cs9c-ap/cs9x/cs9c-c/hw2/generate.c:57: warning: the `gets' function is dangerous and should not be used.
+cs9c-ap@hive2 [86] [1m~/cs9x/cs9c-c/hw2[0m # ls
+a.out  assignment2  generate.c	note
+cs9c-ap@hive2 [87] [1m~/cs9x/cs9c-c/hw2[0m # ./a.out 
+This program finds words that can be associated with
+phone numbers
+
+
+What is the maximum number of consonants you would like
+the generated word to possess?
+(note: 0's and 1's are considered consonants)
+4
+Please enter a 7 digit phone number with dashes removed
+4460175
+iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  
+iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  
+iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  
+iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  
+iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  
+iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  
+iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  
+iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  iio01pj  iio01pk  
+iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  iio01sk  iio01sl  
+iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  iio01rl  iio01sj  
+iio01sk  iio01sl  iio01pj  iio01pk  iio01pl  iio01rj  iio01rk  
+iio01rl  iio01sj  iio01sk  iio01sl  
+
+Would you like to try another number? (Y/N)
+N
+cs9c-ap@hive2 [88] [1m~/cs9x/cs9c-c/hw2[0m # exit
+exit
+
+Script done on Sun 15 Nov 2015 12:01:53 PM PST
