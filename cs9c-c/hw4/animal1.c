@@ -21,11 +21,11 @@ struct positionStruct {
 
 void unitTest();
 
-int main(int argc, char const *argv[])
-{
-    unitTest();
-    return 0;
-}
+// int main(int argc, char const *argv[])
+// {
+//     unitTest();
+//     return 0;
+// }
 
 /*s
  *  Return an animal tree.

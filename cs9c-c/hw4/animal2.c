@@ -24,10 +24,10 @@ void unitTest();
 TreeType createTreeNode(char *str);
 void WriteTreeHelper(FILE* fp, TreeType tree);
 
-int main(int argc, char const *argv[]) {
-	unitTest();
-	return 0;
-}
+// int main(int argc, char const *argv[]) {
+// 	unitTest();
+// 	return 0;
+// }
 
 TreeType createTreeNode (char *str) {
 	TreeType tree = (TreeType) malloc(MAXNUMQS*sizeof(TreeType));
