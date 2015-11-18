@@ -11,6 +11,3 @@ c.animal1 : animal1.c $(LIB)/p4.c
 	#load $(CFLAGS) animal1.c $(LIB)/p4.c
 c.listtest : animal2.c $(LIB)/p4.c
 	#load $(CFLAGS) animal2.c $(LIB)/p4.c
-clean:
-	rm animal1 animal1.o animal2 animal2.o
-
