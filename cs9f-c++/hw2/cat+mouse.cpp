@@ -36,14 +36,18 @@ void RunChase (Position& cat, Position& mouse) {
     	Position originalCat = cat;
     	if(cat.Sees(mouse)){
     		cat.IncrementPosition(-1, 0);
+            cout << "cat move [radius: " <<  cat.GetMyRadius() << " , angle:  " << cat.GetMyAngleInRadians()  << " ]" << endl;
     	} else {
     		cat.IncrementPosition(0, 1.25);
+            cout << "cat move [radius: " <<  cat.GetMyRadius() << " , angle:  " << cat.GetMyAngleInRadians()  << " ]" << endl;
     	}
     	if(cat.IsAtStatue() && mouse.IsBetween(originalCat, cat)) {
     		cout << "Cat caughted Mouse in " << i << endl;
     		return;
     	}
+        cout << "Mouse original [radius: " <<  mouse.GetMyRadius() << " , angle:  " << mouse.GetMyAngleInRadians()  << " ]" << endl;
     	mouse.IncrementPosition(0, 1);
+        cout << "Mouse move [radius: " <<  mouse.GetMyRadius() << " , angle:  " << mouse.GetMyAngleInRadians()  << " ]" << endl;
     }
     cout << "Mouse escaped" << endl;
 }

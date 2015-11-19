@@ -27,6 +27,8 @@ Position::Position(float r) {
 }
 
 Position::Position(float r, float thetaInRadians) {
+	cout << "--------------- " << r;
+	cout << "--------------- " << thetaInRadians;
 	myRadius = r;
 	myAngleInRadians = thetaInRadians;
 	Standardize();
@@ -62,3 +64,12 @@ bool Position::IsBetween (Position pos1, Position pos2) {
 	float C = pos1.myAngleInRadians;
 	return cos(B - A) > cos(C - A) && cos(C - B) > cos(C - A);
 }
+
+float Position::GetMyRadius () {
+	return myRadius;
+}
+
+float Position::GetMyAngleInRadians () {
+	return myAngleInRadians;
+}
+

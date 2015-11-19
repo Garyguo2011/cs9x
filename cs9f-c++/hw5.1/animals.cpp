@@ -19,7 +19,7 @@ Cat::Cat(string s, Position p) : Animal(s, p){
 
 bool Cat::Chase() {
   Position original = myPos;
-    if(myPos.Sees(myTarget->Pos())){
+  if(myPos.Sees(myTarget->Pos())){
     myPos.IncrementPosition(-1, 0);
   } else {
     myPos.IncrementPosition(0, 1.25);

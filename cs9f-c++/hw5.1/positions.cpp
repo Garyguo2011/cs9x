@@ -28,13 +28,13 @@ Position::Position(float r) {
 
 Position::Position(float r, float thetaInRadians) {
 	myRadius = r;
-	myAngleInRadians = thetaInRadians;
+	myAngleInRadians = thetaInRadians * M_PI / 180;
 	Normalize();
 }
 
 void Position::SetAbsolutePosition(float r, float thetaInRadians) {
 	myRadius = r;
-	myAngleInRadians = thetaInRadians;
+	myAngleInRadians = thetaInRadians * M_PI / 180;
 	Normalize();
 }
 

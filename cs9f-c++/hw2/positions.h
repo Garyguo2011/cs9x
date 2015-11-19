@@ -41,6 +41,9 @@ public:
 	// are the same.
 	bool IsBetween (Position pos1, Position pos2);
 
+	float GetMyRadius();
+	float GetMyAngleInRadians();
+
 private:
 	float myRadius;
 	float myAngleInRadians;

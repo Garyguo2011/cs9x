@@ -1,7 +1,7 @@
 CXX := g++
 CXXFLAGS := -std=c++11 -g -Wall
 
-all: compile test
+all: compile
 
 compile:
 	@$(CXX) $(CXXFLAGS) -c positions.cpp
