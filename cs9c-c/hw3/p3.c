@@ -81,6 +81,10 @@ int main () {
  */
 TreeType InitTree () {
     TreeType tree = calloc(MAXNUMQS, MAXSTRLEN);
+    if (tree == NULL){
+        fprintf(stderr, "Not Enough Momery\n");
+        free(tree);
+    }
     tree[0] = "Is it furry?";
     tree[1] = "Does it meow?";
     tree[2] = "Does it have tusks?";
